@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Glassmorphism Testimonials</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="box">
+        <div class="elements bg"></div>
+        <div class="elements imgbx">
+        <img src="img2.jpg">
+    </div>
+    <div class="elements name">
+        <h2>Someone Famous</h2>
+    </div>
+    <div class="elements content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga recusandae expedita unde officia mollitia earum optio sed ex eligendi, assumenda sit quod exercitationem incidunt amet sint, perferendis accusantium debitis omnis?</p>
+    </div>
+        <div class="card"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.babel.js" integrity="sha512-BbjFJwOzGYU93n8xrhw42ec6XJuTZx+EYznunKtIyDlpJlW4cTPgleCtNJL7mIiXcLmNkI9N93zT5Xr484WD1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+    VanillaTilt.init(document.querySelector(".box"), {
+		max: 15,
+		speed: 400,
+        glare: true
+        });
+
+    </script>
+    
+</body>
+</html>
